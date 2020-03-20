@@ -12,9 +12,9 @@ class Procesos {
    public static void main(String[] arg) throws IOException, InterruptedException {
 
       //LeerArchivo();
-       NumArchivosDescriptivos();
-      // VariablesEntorno();
-      //CrearProceso();
+      //NumArchivosDescriptivos();
+      //VariablesEntorno();
+      CrearProceso();
 
    }
 
