@@ -11,12 +11,10 @@ import java.util.Set;
 class Procesos {
    public static void main(String[] arg) throws IOException, InterruptedException {
 
-      // LeerArchivo();
-      // escribirArchivo();
-      // LeerArchivo();
-      // NumArchivosDescriptivos();
+      //LeerArchivo();
+       NumArchivosDescriptivos();
       // VariablesEntorno();
-      //sCrearProceso();
+      //CrearProceso();
 
    }
 
@@ -47,14 +45,8 @@ class Procesos {
       }
    }
 
-   public static void EscribirArchivo() {
-      try {
-         Files.write(Paths.get("/home/muterk/Documentos/Tarea 3/cominicacion-entre-procesos-1-jarturogl05/Texto"),
-               "Buenas noches".getBytes(), StandardOpenOption.APPEND);
-      } catch (IOException e) {
-         e.printStackTrace();
-      }
-   }
+   
+
 
    public static void NumArchivosDescriptivos() {
       OperatingSystemMXBean os = ManagementFactory.getOperatingSystemMXBean();
